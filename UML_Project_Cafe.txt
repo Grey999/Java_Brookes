@@ -1,0 +1,14 @@
+// Cafe Project Diagram
+// -------------------
+
+// Chain elements like this
+[Drink]^[Tea]
+[Drink]^[Coffee]
+[CafeMain]-.->[Drink]
+
+
+// Add more detail
+[Drink|prepareRecipe() 
+AddExtra(), PrepareDrink(), pourLiquid(), ]
+[Coffee|AddExtra(), PrepareDrink()]
+[Tea|AddExtra(), PrepareDrink()]
