@@ -12,4 +12,4 @@
 AddExtra(), PrepareDrink(), pourLiquid(), ]
 [Coffee|AddExtra(), PrepareDrink()]
 [Tea|AddExtra(), PrepareDrink()]
-[Main|+main(:String[])]
+[CafeMain|+main(:String[])]
